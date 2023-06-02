@@ -15,7 +15,7 @@ export default function Home() {
   }, [youTubeData]);
 
   return (
-    <main className="max-w-screen-xl m-auto px-3 py-4">
+    <main className="max-w-screen-xl m-auto px-3 py-4 h-screen">
       <h1 class="text-3xl font-bold m-4 text-center">Startup Stories</h1>
 
       <div class="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1">
