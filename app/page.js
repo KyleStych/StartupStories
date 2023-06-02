@@ -51,7 +51,7 @@ export default function Home() {
       </div>
 
       <h3 class="text-3xl font-bold m-4 pt-12 pb-0 pl-4 mb-0">Episodes</h3>
-      <div class="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-4">
+      <div class="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-4 mb-12">
         {youTubeData.map(v => (
           <YouTubeCard
             videoUrl={v.videoUrl}
