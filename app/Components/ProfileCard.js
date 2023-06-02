@@ -29,7 +29,7 @@ const ProfileCard = ({ name, imgSrc, title, url, bio }) => {
               </a>
             </div>
           </div>
-          <div class="sm:w-3/5 text-justify md:pl-2">{bio}</div>
+          <div class="sm:w-3/5 text-justify px-5 sm:px-0 md:pl-2">{bio}</div>
         </div>
       </div>
     </div>
