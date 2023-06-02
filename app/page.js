@@ -15,8 +15,8 @@ export default function Home() {
   }, [youTubeData]);
 
   return (
-    <main className="">
-      <h1 class="text-3xl font-bold m-4">Startup Stories</h1>
+    <main className="max-w-screen-xl m-auto px-3">
+      <h1 class="text-3xl font-bold m-4 text-center">Startup Stories</h1>
 
       <div class="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1">
         {profileData.map(p => (
@@ -33,7 +33,7 @@ export default function Home() {
         <div class="bg-slate-50 py-8 px-4 rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 m-4">
           <div class="text-center sm:text-left">
             <div class="flex sm:flex-row flex-col">
-              <div class="flex flex-col gap-y-1 sm:ml-8 mb-4">
+              <div class="flex flex-col gap-y-1 sm:px-8 mb-4">
                 <h2 class=" text-slate-700 font-semibold text-xl leading-none mt-4">
                   Learn how to acquire your first customer
                 </h2>
@@ -50,7 +50,7 @@ export default function Home() {
         </div>
       </div>
 
-      <h3 class="text-3xl font-bold m-4 pt-12 pb-0 mb-0">Episodes</h3>
+      <h3 class="text-3xl font-bold m-4 pt-12 pb-0 pl-4 mb-0">Episodes</h3>
       <div class="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-4">
         {youTubeData.map(v => (
           <YouTubeCard
